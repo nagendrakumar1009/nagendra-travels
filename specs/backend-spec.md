@@ -1,41 +1,92 @@
-# Backend Spec
+# Backend Spec — Trip Planner
 
-## 1. Tech Stack
-<!-- Language, framework, database, ORM, hosting, testing. -->
+> Status: Draft | Owner: <name> | Last updated: <YYYY-MM-DD>
+> Related: [goal-spec.md](./goal-spec.md) · [api-contract-spec.md](./api-contract-spec.md)
 
-## 2. Architecture
-<!-- Layers (routes/controllers/services/repositories), folder structure. -->
+## 1. Overview
+<!-- Summary of the backend's responsibilities. -->
 
-## 3. Data Models
-<!-- For each entity: fields, types, constraints, relationships. -->
-### Entity: <Name>
-| Field | Type | Required | Constraints / Notes |
-|-------|------|----------|---------------------|
-| | | | |
+## 2. Tech Stack
+- Language / runtime:
+- Framework:
+- Database:
+- ORM / query builder:
+- Auth:
+- Caching:
+- Background jobs / queues:
+- Testing:
 
-## 4. Database Schema & Relationships
-<!-- ER description, indexes, migrations. -->
+## 3. Architecture
+<!-- Layering (routes → controllers → services → repositories), monolith vs services, diagram. -->
 
-## 5. Business Logic
-<!-- Rules, calculations, workflows per feature. -->
+## 4. Data Model
+<!-- Repeat for each entity. -->
+### 4.x <Entity Name>
+| Field | Type | Constraints | Description |
+|-------|------|-------------|-------------|
+| id    |      | PK          |             |
+
+### Relationships
+- 
+
+### Indexes
+- 
+
+## 5. Business Logic / Services
+| Service | Responsibility | Key Rules |
+|---------|----------------|-----------|
+|         |                |           |
 
 ## 6. Authentication & Authorization
-<!-- Auth method, roles, permissions, password/token handling. -->
+- Auth mechanism (JWT, session, OAuth):
+- Password policy / hashing:
+- Roles & permissions:
+- Resource ownership rules:
 
-## 7. Validation & Error Handling
-<!-- Input validation, error codes, logging. -->
+## 7. Validation
+- 
 
-## 8. External Services
-<!-- Maps, weather, flights, email, storage, etc. -->
+## 8. Error Handling
+- Error format (see api-contract-spec.md):
+- Logging of errors:
 
-## 9. Configuration & Environment
-<!-- Env variables, secrets, environments. -->
+## 9. External Integrations
+| Service | Purpose | Rate Limits / Notes |
+|---------|---------|---------------------|
+|         |         |                     |
 
 ## 10. Security
-<!-- CORS, rate limiting, sanitization, data privacy. -->
+- Input sanitization:
+- CORS policy:
+- Rate limiting:
+- Secrets management:
 
-## 11. Testing Strategy
-<!-- Unit, integration, seed data. -->
+## 11. Logging & Monitoring
+- 
 
-## 12. Deployment
-<!-- Build, CI/CD, hosting. -->
+## 12. Performance & Scalability
+- 
+
+## 13. Testing Strategy
+- Unit:
+- Integration:
+- Contract tests (against api-contract-spec.md):
+
+## 14. Folder Structure
+```
+backend/
+  src/
+```
+
+## 15. Environment Variables
+| Name | Description | Example |
+|------|-------------|---------|
+|      |             |         |
+
+## 16. Deployment
+- Environments (dev/staging/prod):
+- Migrations:
+- CI/CD:
+
+## 17. Open Questions
+- 

@@ -1,39 +1,85 @@
-# Frontend Spec
+# Frontend Spec — Trip Planner
 
-## 1. Tech Stack
-<!-- Framework, language, build tool, styling, state management, routing, testing. -->
+> Status: Draft | Owner: <name> | Last updated: <YYYY-MM-DD>
+> Related: [goal-spec.md](./goal-spec.md) · [api-contract-spec.md](./api-contract-spec.md)
 
-## 2. Pages / Routes
-| Route | Page | Auth required | Description |
+## 1. Overview
+<!-- Summary of the frontend's responsibilities. -->
+
+## 2. Tech Stack
+- Framework:
+- Language:
+- Styling / UI library:
+- State management:
+- Data fetching:
+- Routing:
+- Forms & validation:
+- Maps / other libraries:
+- Testing:
+- Build tool:
+
+## 3. Pages / Routes
+| Route | Page | Auth Required | Description |
 |-------|------|---------------|-------------|
-| | | | |
+| `/`   |      |               |             |
 
-## 3. Component Hierarchy
-<!-- Layout, shared components, page-specific components. -->
+## 4. Page Details
+<!-- Repeat this block for each page. -->
+### 4.x <Page Name>
+- **Purpose:**
+- **Layout / key sections:**
+- **Components used:**
+- **Data needed (API endpoints):**
+- **User interactions:**
+- **Empty / loading / error states:**
 
-## 4. User Flows
-<!-- Step-by-step flows, e.g. create trip -> add itinerary -> share. -->
-
-## 5. UI / UX Requirements
-<!-- Wireframes, design system, colors, typography, responsiveness, accessibility. -->
+## 5. Component Inventory
+| Component | Props | Description | Reused In |
+|-----------|-------|-------------|-----------|
+|           |       |             |           |
 
 ## 6. State Management
-<!-- Global vs local state, caching, data fetching strategy. -->
+- Global state (what & where):
+- Server state / caching strategy:
+- Local/UI state:
 
-## 7. Forms & Validation
-<!-- Fields, rules, error messages. -->
+## 7. Authentication Flow (Client Side)
+- Login / signup / logout:
+- Token storage:
+- Protected route handling:
 
-## 8. API Integration
-<!-- Which endpoints each page/component uses (see api-contract-spec.md). -->
+## 8. Forms & Validation Rules
+| Form | Field | Rules |
+|------|-------|-------|
+|      |       |       |
 
-## 9. Error, Loading & Empty States
-<!-- How each is displayed. -->
+## 9. UI / UX Guidelines
+- Design system / theme (colors, typography):
+- Responsive breakpoints:
+- Accessibility requirements (WCAG level):
+- Dark mode:
 
-## 10. Authentication Handling
-<!-- Token storage, protected routes, session expiry. -->
+## 10. Error Handling & Notifications
+- 
 
-## 11. Performance & Accessibility
-<!-- Targets, lazy loading, WCAG level. -->
+## 11. Performance Requirements
+- 
 
 ## 12. Testing Strategy
-<!-- Unit, component, e2e. -->
+- Unit:
+- Integration:
+- E2E:
+
+## 13. Folder Structure
+```
+frontend/
+  src/
+```
+
+## 14. Environment Variables
+| Name | Description | Example |
+|------|-------------|---------|
+|      |             |         |
+
+## 15. Open Questions
+- 

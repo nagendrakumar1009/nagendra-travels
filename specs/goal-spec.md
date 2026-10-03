@@ -1,35 +1,58 @@
-# Goal Spec
+# Goal Spec — Trip Planner
 
-## 1. Project Overview
-<!-- One-paragraph summary of the trip planner app. -->
+> Status: Draft | Owner: <name> | Last updated: <YYYY-MM-DD>
 
-## 2. Problem Statement
-<!-- What problem does this solve? Who has it? -->
+## 1. Problem Statement
+<!-- What problem are we solving, and for whom? -->
 
-## 3. Target Users / Personas
-<!-- Who will use it? Needs, pain points, tech comfort. -->
+## 2. Vision / Elevator Pitch
+<!-- One or two sentences describing the product. -->
 
-## 4. Goals & Objectives
-<!-- Measurable outcomes the app must achieve. -->
+## 3. Target Users & Personas
+| Persona | Description | Key Needs |
+|---------|-------------|-----------|
+|         |             |           |
+
+## 4. Goals
+<!-- Measurable outcomes this project must achieve. -->
+- G1:
+- G2:
 
 ## 5. Non-Goals (Out of Scope)
-<!-- What we are explicitly NOT building. -->
+- 
 
-## 6. Core Features (Prioritized)
-| Priority | Feature | Description |
-|----------|---------|-------------|
-| P0 | | |
-| P1 | | |
-| P2 | | |
+## 6. Core User Stories
+| ID | As a... | I want to... | So that... | Priority (P0/P1/P2) |
+|----|---------|--------------|------------|---------------------|
+| US-1 |       |              |            |                     |
 
-## 7. User Stories
-<!-- As a <user>, I want <action> so that <benefit>. -->
+## 7. Key Features (MVP)
+- [ ] 
 
-## 8. Success Metrics
-<!-- How we know it works: KPIs, acceptance criteria. -->
+## 8. Future Features (Post-MVP)
+- 
 
-## 9. Constraints & Assumptions
-<!-- Tech stack, budget, timeline, third-party services. -->
+## 9. Success Metrics
+| Metric | Target |
+|--------|--------|
+|        |        |
 
-## 10. Risks & Open Questions
-<!-- Known unknowns. -->
+## 10. Constraints & Assumptions
+- Tech constraints:
+- Budget / timeline:
+- Assumptions:
+
+## 11. Tech Stack (High Level)
+- Frontend:
+- Backend:
+- Database:
+- Hosting / Deployment:
+- Third-party services (maps, weather, auth, etc.):
+
+## 12. Milestones
+| Milestone | Scope | Target Date |
+|-----------|-------|-------------|
+|           |       |             |
+
+## 13. Risks & Open Questions
+- 
